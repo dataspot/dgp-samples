@@ -1,0 +1,1725 @@
+[
+  {
+    "dataType": "string",
+    "description": "A code or unique identifier for the contract",
+    "dimensionType": "activity",
+    "name": "activity:generic:contract:code",
+    "parent": "activity:generic:subproject:code",
+    "title": "Activity/Generic/Contract/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "A label, title or display name for this contract",
+    "dimensionType": "activity",
+    "labelfor": "activity:generic:contract:code",
+    "name": "activity:generic:contract:label",
+    "title": "Activity/Generic/Contract/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "A code or unique identifier for the program",
+    "dimensionType": "activity",
+    "name": "activity:generic:program:code",
+    "title": "Activity/Generic/Program/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "A label, title or display name for this program",
+    "dimensionType": "activity",
+    "labelfor": "activity:generic:program:code",
+    "name": "activity:generic:program:label",
+    "title": "Activity/Generic/Program/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "A code or unique identifier for the project",
+    "dimensionType": "activity",
+    "name": "activity:generic:project:code",
+    "parent": "activity:generic:subprogram:code",
+    "title": "Activity/Generic/Project/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "A label, title or display name for this project",
+    "dimensionType": "activity",
+    "labelfor": "activity:generic:project:code",
+    "name": "activity:generic:project:label",
+    "title": "Activity/Generic/Project/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "A code or unique identifier for the subprogram",
+    "dimensionType": "activity",
+    "name": "activity:generic:subprogram:code",
+    "parent": "activity:generic:program:code",
+    "title": "Activity/Generic/Subprogram/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "A label, title or display name for this subprogram",
+    "dimensionType": "activity",
+    "labelfor": "activity:generic:subprogram:code",
+    "name": "activity:generic:subprogram:label",
+    "title": "Activity/Generic/Subprogram/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "A code or unique identifier for the sub-project",
+    "dimensionType": "activity",
+    "name": "activity:generic:subproject:code",
+    "parent": "activity:generic:project:code",
+    "title": "Activity/Generic/Subproject/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "A label, title or display name for this sub-project",
+    "dimensionType": "activity",
+    "labelfor": "activity:generic:subproject:code",
+    "name": "activity:generic:subproject:label",
+    "title": "Activity/Generic/Subproject/Display Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A code or unique identifier for the classification (not level specific)",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:code",
+    "title": "Administrative Classification/Generic/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A longer descriptive text for this classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:description",
+    "title": "Administrative Classification/Generic/Description"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A label, title or display name for the classification",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:code",
+    "name": "administrative-classification:generic:label",
+    "title": "Administrative Classification/Generic/Display Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A code or unique identifier for the top level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level1:code",
+    "title": "Administrative Classification/Generic/Level1/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level1:description",
+    "title": "Administrative Classification/Generic/Level1/Description Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level1:code",
+    "name": "administrative-classification:generic:level1:label",
+    "title": "Administrative Classification/Generic/Level1/Display Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 2nd level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level2:code",
+    "parent": "administrative-classification:generic:level1:code",
+    "title": "Administrative Classification/Generic/Level2/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level2:description",
+    "title": "Administrative Classification/Generic/Level2/Description Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level2:code",
+    "name": "administrative-classification:generic:level2:label",
+    "title": "Administrative Classification/Generic/Level2/Display Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 3rd level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level3:code",
+    "parent": "administrative-classification:generic:level2:code",
+    "title": "Administrative Classification/Generic/Level3/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level3:description",
+    "title": "Administrative Classification/Generic/Level3/Description Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level3:code",
+    "name": "administrative-classification:generic:level3:label",
+    "title": "Administrative Classification/Generic/Level3/Display Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 4th level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level4:code",
+    "parent": "administrative-classification:generic:level3:code",
+    "title": "Administrative Classification/Generic/Level4/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level4:description",
+    "title": "Administrative Classification/Generic/Level4/Description Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level4:code",
+    "name": "administrative-classification:generic:level4:label",
+    "title": "Administrative Classification/Generic/Level4/Display Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 5th level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level5:code",
+    "parent": "administrative-classification:generic:level4:code",
+    "title": "Administrative Classification/Generic/Level5/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level5:description",
+    "title": "Administrative Classification/Generic/Level5/Description Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level5:code",
+    "name": "administrative-classification:generic:level5:label",
+    "title": "Administrative Classification/Generic/Level5/Display Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 6th level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level6:code",
+    "parent": "administrative-classification:generic:level5:code",
+    "title": "Administrative Classification/Generic/Level6/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level6:description",
+    "title": "Administrative Classification/Generic/Level6/Description Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level6:code",
+    "name": "administrative-classification:generic:level6:label",
+    "title": "Administrative Classification/Generic/Level6/Display Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 7th level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level7:code",
+    "parent": "administrative-classification:generic:level6:code",
+    "title": "Administrative Classification/Generic/Level7/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level7:description",
+    "title": "Administrative Classification/Generic/Level7/Description Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level7:code",
+    "name": "administrative-classification:generic:level7:label",
+    "title": "Administrative Classification/Generic/Level7/Display Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 8th level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level8:code",
+    "parent": "administrative-classification:generic:level7:code",
+    "title": "Administrative Classification/Generic/Level8/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "administrative-classification:generic:level8:description",
+    "title": "Administrative Classification/Generic/Level8/Description Name"
+  },
+  {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level8:code",
+    "name": "administrative-classification:generic:level8:label",
+    "title": "Administrative Classification/Generic/Level8/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the Administrator",
+    "dimensionType": "entity",
+    "name": "administrator:generic:id",
+    "title": "Administrator/Generic/Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "The display name for the Administrator",
+    "dimensionType": "entity",
+    "labelfor": "administrator:generic:id",
+    "name": "administrator:generic:name",
+    "title": "Administrator/Generic/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "A unique identifier for this budget line",
+    "dimensionType": "fact",
+    "name": "budget-line-id",
+    "title": "Budget Line Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Extra properties regarding whether the expenditure contains budgetary transfers",
+    "dimensionType": "other",
+    "name": "budgetary-transfers",
+    "title": "Budgetary Transfers"
+  },
+  {
+    "dataType": "integer",
+    "description": "The fiscal-year for which the values in this record are relevant",
+    "dimensionType": "datetime",
+    "name": "date:fiscal-year",
+    "title": "Date/Fiscal year",
+    "unique": true
+  },
+  {
+    "dataType": "date",
+    "description": "The approval date of a specific activity",
+    "dimensionType": "datetime",
+    "name": "date:fiscal:activity-approval",
+    "title": "Date/Fiscal/Approval Date",
+    "unique": true
+  },
+  {
+    "dataType": "date",
+    "description": "The ending date of a specific activity",
+    "dimensionType": "datetime",
+    "name": "date:fiscal:activity-end",
+    "title": "Date/Fiscal/Ending Date",
+    "unique": true
+  },
+  {
+    "dataType": "date",
+    "description": "The starting date of a specific activity",
+    "dimensionType": "datetime",
+    "name": "date:fiscal:activity-start",
+    "title": "Date/Fiscal/Start Date",
+    "unique": true
+  },
+  {
+    "dataType": "date",
+    "description": "The date of the last payment for a specific activity",
+    "dimensionType": "datetime",
+    "name": "date:fiscal:final-payment",
+    "title": "Date/Fiscal/Final Payment Date",
+    "unique": true
+  },
+  {
+    "dataType": "date",
+    "description": "The date of the first payment for a specific activity",
+    "dimensionType": "datetime",
+    "name": "date:fiscal:first-payment",
+    "title": "Date/Fiscal/First Payment Date",
+    "unique": true
+  },
+  {
+    "dataType": "date",
+    "description": "An non-specific date related to the values in this record (e.g. transaction date etc.)",
+    "dimensionType": "datetime",
+    "name": "date:generic",
+    "title": "Date/Other date",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Specifies whether the values in this line are expenditure or revenues",
+    "dimensionType": "other",
+    "name": "direction",
+    "title": "Budget Direction",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the classification (not level specific)",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:code",
+    "title": "Economic Classification/Generic/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:description",
+    "title": "Economic Classification/Generic/Description"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:code",
+    "name": "economic-classification:generic:label",
+    "title": "Economic Classification/Generic/Display Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the top level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level1:code",
+    "title": "Economic Classification/Generic/Level1/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level1:description",
+    "title": "Economic Classification/Generic/Level1/Description Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level1:code",
+    "name": "economic-classification:generic:level1:label",
+    "title": "Economic Classification/Generic/Level1/Display Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 2nd level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level2:code",
+    "parent": "economic-classification:generic:level1:code",
+    "title": "Economic Classification/Generic/Level2/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level2:description",
+    "title": "Economic Classification/Generic/Level2/Description Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level2:code",
+    "name": "economic-classification:generic:level2:label",
+    "title": "Economic Classification/Generic/Level2/Display Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 3rd level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level3:code",
+    "parent": "economic-classification:generic:level2:code",
+    "title": "Economic Classification/Generic/Level3/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level3:description",
+    "title": "Economic Classification/Generic/Level3/Description Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level3:code",
+    "name": "economic-classification:generic:level3:label",
+    "title": "Economic Classification/Generic/Level3/Display Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 4th level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level4:code",
+    "parent": "economic-classification:generic:level3:code",
+    "title": "Economic Classification/Generic/Level4/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level4:description",
+    "title": "Economic Classification/Generic/Level4/Description Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level4:code",
+    "name": "economic-classification:generic:level4:label",
+    "title": "Economic Classification/Generic/Level4/Display Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 5th level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level5:code",
+    "parent": "economic-classification:generic:level4:code",
+    "title": "Economic Classification/Generic/Level5/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level5:description",
+    "title": "Economic Classification/Generic/Level5/Description Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level5:code",
+    "name": "economic-classification:generic:level5:label",
+    "title": "Economic Classification/Generic/Level5/Display Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 6th level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level6:code",
+    "parent": "economic-classification:generic:level5:code",
+    "title": "Economic Classification/Generic/Level6/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level6:description",
+    "title": "Economic Classification/Generic/Level6/Description Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level6:code",
+    "name": "economic-classification:generic:level6:label",
+    "title": "Economic Classification/Generic/Level6/Display Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 7th level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level7:code",
+    "parent": "economic-classification:generic:level6:code",
+    "title": "Economic Classification/Generic/Level7/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level7:description",
+    "title": "Economic Classification/Generic/Level7/Description Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level7:code",
+    "name": "economic-classification:generic:level7:label",
+    "title": "Economic Classification/Generic/Level7/Display Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 8th level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level8:code",
+    "parent": "economic-classification:generic:level7:code",
+    "title": "Economic Classification/Generic/Level8/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:generic:level8:description",
+    "title": "Economic Classification/Generic/Level8/Description Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level8:code",
+    "name": "economic-classification:generic:level8:label",
+    "title": "Economic Classification/Generic/Level8/Display Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the top level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:gfsm:level1:code",
+    "title": "Economic Classification/Gfsm/Level1/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:gfsm:level1:description",
+    "title": "Economic Classification/Gfsm/Level1/Description Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:gfsm:level1:code",
+    "name": "economic-classification:gfsm:level1:label",
+    "title": "Economic Classification/Gfsm/Level1/Display Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 2nd level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:gfsm:level2:code",
+    "parent": "economic-classification:gfsm:level1:code",
+    "title": "Economic Classification/Gfsm/Level2/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:gfsm:level2:description",
+    "title": "Economic Classification/Gfsm/Level2/Description Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:gfsm:level2:code",
+    "name": "economic-classification:gfsm:level2:label",
+    "title": "Economic Classification/Gfsm/Level2/Display Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 3rd level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:gfsm:level3:code",
+    "parent": "economic-classification:gfsm:level2:code",
+    "title": "Economic Classification/Gfsm/Level3/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:gfsm:level3:description",
+    "title": "Economic Classification/Gfsm/Level3/Description Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:gfsm:level3:code",
+    "name": "economic-classification:gfsm:level3:label",
+    "title": "Economic Classification/Gfsm/Level3/Display Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 4th level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:gfsm:level4:code",
+    "parent": "economic-classification:gfsm:level3:code",
+    "title": "Economic Classification/Gfsm/Level4/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "economic-classification:gfsm:level4:description",
+    "title": "Economic Classification/Gfsm/Level4/Description Name"
+  },
+  {
+    "classificationType": "economic",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:gfsm:level4:code",
+    "name": "economic-classification:gfsm:level4:label",
+    "title": "Economic Classification/Gfsm/Level4/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the expenditure type",
+    "dimensionType": "other",
+    "name": "expenditure-type:code",
+    "title": "Expenditure Type/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Display name for the expenditure type",
+    "dimensionType": "other",
+    "labelfor": "expenditure-type:code",
+    "name": "expenditure-type:label",
+    "title": "Expenditure Type/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "A code or unique identifier for the financial source",
+    "dimensionType": "other",
+    "name": "fin-source:generic:code",
+    "title": "Fin Source/Generic/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Display name or title for the financial source",
+    "dimensionType": "other",
+    "labelfor": "fin-source:generic:code",
+    "name": "fin-source:generic:label",
+    "title": "Fin Source/Generic/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "A code or unique identifier for the top level of the financial source hierarchy",
+    "dimensionType": "other",
+    "name": "fin-source:generic:level1:code",
+    "title": "Fin Source/Generic/Level1/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Display name or title for the top level of the financial source hierarchy",
+    "dimensionType": "other",
+    "labelfor": "fin-source:generic:level1:code",
+    "name": "fin-source:generic:level1:label",
+    "title": "Fin Source/Generic/Level1/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "A code or unique identifier for the 2nd level of the financial source hierarchy",
+    "dimensionType": "other",
+    "name": "fin-source:generic:level2:code",
+    "parent": "fin-source:generic:level1:code",
+    "title": "Fin Source/Generic/Level2/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Display name or title for the 2nd level of the financial source hierarchy",
+    "dimensionType": "other",
+    "labelfor": "fin-source:generic:level2:code",
+    "name": "fin-source:generic:level2:label",
+    "title": "Fin Source/Generic/Level2/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "A code or unique identifier for the 3rd level of the financial source hierarchy",
+    "dimensionType": "other",
+    "name": "fin-source:generic:level3:code",
+    "parent": "fin-source:generic:level2:code",
+    "title": "Fin Source/Generic/Level3/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Display name or title for the 3rd level of the financial source hierarchy",
+    "dimensionType": "other",
+    "labelfor": "fin-source:generic:level3:code",
+    "name": "fin-source:generic:level3:label",
+    "title": "Fin Source/Generic/Level3/Display Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "The COFOG 'Class' Level code",
+    "dimensionType": "classification",
+    "name": "functional-classification:cofog:class:code",
+    "parent": "functional-classification:cofog:group:code",
+    "title": "Functional Classification/Cofog/Class/COFOG Class code",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A more detailed textual description for this class",
+    "dimensionType": "classification",
+    "name": "functional-classification:cofog:class:description",
+    "title": "Functional Classification/Cofog/Class/COFOG Class description"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A label or display name for this class",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:cofog:class:code",
+    "name": "functional-classification:cofog:class:label",
+    "title": "Functional Classification/Cofog/Class/COFOG Class display name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "The complete COFOG classification code, non level-specific",
+    "dimensionType": "classification",
+    "name": "functional-classification:cofog:code",
+    "title": "Functional Classification/Cofog/Complete COFOG code",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "Description for this COFOG classification, non level-specific",
+    "dimensionType": "classification",
+    "name": "functional-classification:cofog:description",
+    "title": "Functional Classification/Cofog/COFOG description"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "The COFOG 'Division' Level code",
+    "dimensionType": "classification",
+    "name": "functional-classification:cofog:division:code",
+    "title": "Functional Classification/Cofog/Division/COFOG Division code",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A more detailed textual description for this division",
+    "dimensionType": "classification",
+    "name": "functional-classification:cofog:division:description",
+    "title": "Functional Classification/Cofog/Division/COFOG Division description"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A label or display name for this division",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:cofog:division:code",
+    "name": "functional-classification:cofog:division:label",
+    "title": "Functional Classification/Cofog/Division/COFOG Division display name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "The COFOG 'Group' Level code",
+    "dimensionType": "classification",
+    "name": "functional-classification:cofog:group:code",
+    "parent": "functional-classification:cofog:division:code",
+    "title": "Functional Classification/Cofog/Group/COFOG Group code",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A more detailed textual description for this group",
+    "dimensionType": "classification",
+    "name": "functional-classification:cofog:group:description",
+    "title": "Functional Classification/Cofog/Group/COFOG Group description"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A label or display name for this group",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:cofog:group:code",
+    "name": "functional-classification:cofog:group:label",
+    "title": "Functional Classification/Cofog/Group/COFOG Group display name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "Display name for this COFOG classification, non level-specific",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:cofog:code",
+    "name": "functional-classification:cofog:label",
+    "title": "Functional Classification/Cofog/COFOG display name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A code or unique identifier for the classification (not level specific)",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:code",
+    "title": "Functional Classification/Generic/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A longer descriptive text for this classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:description",
+    "title": "Functional Classification/Generic/Description"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A label, title or display name for the classification",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:code",
+    "name": "functional-classification:generic:label",
+    "title": "Functional Classification/Generic/Display Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A code or unique identifier for the top level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level1:code",
+    "title": "Functional Classification/Generic/Level1/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level1:description",
+    "title": "Functional Classification/Generic/Level1/Description Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level1:code",
+    "name": "functional-classification:generic:level1:label",
+    "title": "Functional Classification/Generic/Level1/Display Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 2nd level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level2:code",
+    "parent": "functional-classification:generic:level1:code",
+    "title": "Functional Classification/Generic/Level2/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level2:description",
+    "title": "Functional Classification/Generic/Level2/Description Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level2:code",
+    "name": "functional-classification:generic:level2:label",
+    "title": "Functional Classification/Generic/Level2/Display Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 3rd level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level3:code",
+    "parent": "functional-classification:generic:level2:code",
+    "title": "Functional Classification/Generic/Level3/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level3:description",
+    "title": "Functional Classification/Generic/Level3/Description Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level3:code",
+    "name": "functional-classification:generic:level3:label",
+    "title": "Functional Classification/Generic/Level3/Display Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 4th level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level4:code",
+    "parent": "functional-classification:generic:level3:code",
+    "title": "Functional Classification/Generic/Level4/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level4:description",
+    "title": "Functional Classification/Generic/Level4/Description Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level4:code",
+    "name": "functional-classification:generic:level4:label",
+    "title": "Functional Classification/Generic/Level4/Display Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 5th level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level5:code",
+    "parent": "functional-classification:generic:level4:code",
+    "title": "Functional Classification/Generic/Level5/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level5:description",
+    "title": "Functional Classification/Generic/Level5/Description Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level5:code",
+    "name": "functional-classification:generic:level5:label",
+    "title": "Functional Classification/Generic/Level5/Display Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 6th level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level6:code",
+    "parent": "functional-classification:generic:level5:code",
+    "title": "Functional Classification/Generic/Level6/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level6:description",
+    "title": "Functional Classification/Generic/Level6/Description Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level6:code",
+    "name": "functional-classification:generic:level6:label",
+    "title": "Functional Classification/Generic/Level6/Display Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 7th level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level7:code",
+    "parent": "functional-classification:generic:level6:code",
+    "title": "Functional Classification/Generic/Level7/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level7:description",
+    "title": "Functional Classification/Generic/Level7/Description Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level7:code",
+    "name": "functional-classification:generic:level7:label",
+    "title": "Functional Classification/Generic/Level7/Display Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A code or unique identifier for the 8th level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level8:code",
+    "parent": "functional-classification:generic:level7:code",
+    "title": "Functional Classification/Generic/Level8/Unique Identifier",
+    "unique": true
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A longer descriptive text for this level of the classification",
+    "dimensionType": "classification",
+    "name": "functional-classification:generic:level8:description",
+    "title": "Functional Classification/Generic/Level8/Description Name"
+  },
+  {
+    "classificationType": "functional",
+    "dataType": "string",
+    "description": "A label, title or display name for this level of the classification",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level8:code",
+    "name": "functional-classification:generic:level8:label",
+    "title": "Functional Classification/Generic/Level8/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "The code of the city part of the address",
+    "dimensionType": "location",
+    "name": "geo-source:address:city:code",
+    "parent": "geo-source:address:county:code",
+    "title": "Geo Source/Address/City/City-code in address",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "The name of the city part of the address",
+    "dimensionType": "location",
+    "labelfor": "geo-source:address:city:code",
+    "name": "geo-source:address:city:label",
+    "title": "Geo Source/Address/City/City name in address"
+  },
+  {
+    "dataType": "string",
+    "description": "The code of the country part of the address",
+    "dimensionType": "location",
+    "name": "geo-source:address:country:code",
+    "title": "Geo Source/Address/Country/Country-code in address",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "The name of the country part of the address",
+    "dimensionType": "location",
+    "labelfor": "geo-source:address:country:code",
+    "name": "geo-source:address:country:label",
+    "title": "Geo Source/Address/Country/Country name in address"
+  },
+  {
+    "dataType": "string",
+    "description": "The code of the county part of the address",
+    "dimensionType": "location",
+    "name": "geo-source:address:county:code",
+    "parent": "geo-source:address:region:code",
+    "title": "Geo Source/Address/County/County-code in address",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "The name of the county part of the address",
+    "dimensionType": "location",
+    "labelfor": "geo-source:address:county:code",
+    "name": "geo-source:address:county:label",
+    "title": "Geo Source/Address/County/County name in address"
+  },
+  {
+    "dataType": "string",
+    "description": "The code of the region part of the address",
+    "dimensionType": "location",
+    "name": "geo-source:address:region:code",
+    "parent": "geo-source:address:country:code",
+    "title": "Geo Source/Address/Region/Region-code in address",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "The name of the region part of the address",
+    "dimensionType": "location",
+    "labelfor": "geo-source:address:region:code",
+    "name": "geo-source:address:region:label",
+    "title": "Geo Source/Address/Region/Region name in address"
+  },
+  {
+    "dataType": "string",
+    "description": "Actual street address in whole address",
+    "dimensionType": "location",
+    "name": "geo-source:address:street-address:description",
+    "title": "Geo Source/Address/Street Address/Actual street address"
+  },
+  {
+    "dataType": "string",
+    "description": "The postal code in the address",
+    "dimensionType": "location",
+    "name": "geo-source:address:zip:code",
+    "parent": "geo-source:address:city:code",
+    "title": "Geo Source/Address/Zip/Postal code in address",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier or code for Geographic feature specified in the data",
+    "dimensionType": "location",
+    "name": "geo-source:generic:code",
+    "title": "Geo Source/Generic/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Indicates a specific code list from which a Geographic identifier is drawn",
+    "dimensionType": "location",
+    "name": "geo-source:generic:codeList",
+    "title": "Geo Source/Generic/Code List",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "The display name of the geographic feature",
+    "dimensionType": "location",
+    "labelfor": "geo-source:generic:code",
+    "name": "geo-source:generic:title",
+    "title": "Geo Source/Generic/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier or code for Geographic feature specified in the data",
+    "dimensionType": "location",
+    "name": "geo-source:source:code",
+    "title": "Geo Source/Source/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Indicates a specific code list from which a Geographic identifier is drawn",
+    "dimensionType": "location",
+    "name": "geo-source:source:codeList",
+    "title": "Geo Source/Source/Code List",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "The display name of the geographic feature",
+    "dimensionType": "location",
+    "labelfor": "geo-source:source:code",
+    "name": "geo-source:source:title",
+    "title": "Geo Source/Source/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier or code for Geographic feature specified in the data",
+    "dimensionType": "location",
+    "name": "geo-source:target:code",
+    "title": "Geo Source/Target/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Indicates a specific code list from which a Geographic identifier is drawn",
+    "dimensionType": "location",
+    "name": "geo-source:target:codeList",
+    "title": "Geo Source/Target/Code List",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier or code for the Top Level Geographic feature specified in the data",
+    "dimensionType": "location",
+    "name": "geo-source:target:level1:code",
+    "title": "Geo Source/Target/Level1/Unique identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "The display name for the Top Level Geographic feature specified in the data",
+    "dimensionType": "location",
+    "labelfor": "geo-source:target:level1:code",
+    "name": "geo-source:target:level1:title",
+    "title": "Geo Source/Target/Level1/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier or code for the 2nd Level Geographic feature specified in the data",
+    "dimensionType": "location",
+    "name": "geo-source:target:level2:code",
+    "parent": "geo-source:target:level1:code",
+    "title": "Geo Source/Target/Level2/Unique identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "The display name for the 2nd Level Geographic feature specified in the data",
+    "dimensionType": "location",
+    "labelfor": "geo-source:target:level2:code",
+    "name": "geo-source:target:level2:title",
+    "title": "Geo Source/Target/Level2/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "The display name of the geographic feature",
+    "dimensionType": "location",
+    "labelfor": "geo-source:target:code",
+    "name": "geo-source:target:title",
+    "title": "Geo Source/Target/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "The phase identifier",
+    "dimensionType": "other",
+    "name": "phase:id",
+    "title": "Phase/Phase Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "The phase display name",
+    "dimensionType": "other",
+    "labelfor": "phase:id",
+    "name": "phase:label",
+    "title": "Phase/Budget Life-cycle Phase"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the bank account of the Procurer",
+    "dimensionType": "entity",
+    "name": "procurer:bank:account",
+    "title": "Procurer/Bank/Account"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier of the bank's branch of the Procurer",
+    "dimensionType": "entity",
+    "name": "procurer:bank:branch:code",
+    "title": "Procurer/Bank/Branch/Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Name of the bank's branch of the Procurer",
+    "dimensionType": "entity",
+    "labelfor": "procurer:bank:branch:code",
+    "name": "procurer:bank:branch:name",
+    "title": "Procurer/Bank/Branch/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the bank of the Procurer",
+    "dimensionType": "entity",
+    "name": "procurer:bank:code",
+    "title": "Procurer/Bank/Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the Procurer",
+    "dimensionType": "entity",
+    "name": "procurer:generic:id",
+    "title": "Procurer/Generic/Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "The display name of the Procurer",
+    "dimensionType": "entity",
+    "labelfor": "procurer:generic:id",
+    "name": "procurer:generic:name",
+    "title": "Procurer/Generic/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the bank account of the Recipient",
+    "dimensionType": "entity",
+    "name": "recipient:bank:account",
+    "title": "Recipient/Bank/Account"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier of the bank's branch of the Recipient",
+    "dimensionType": "entity",
+    "name": "recipient:bank:branch:code",
+    "title": "Recipient/Bank/Branch/Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Name of the bank's branch of the Recipient",
+    "dimensionType": "entity",
+    "labelfor": "recipient:bank:branch:name",
+    "name": "recipient:bank:branch:name",
+    "title": "Recipient/Bank/Branch/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the bank of the Recipient",
+    "dimensionType": "entity",
+    "name": "recipient:bank:code",
+    "title": "Recipient/Bank/Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the Recipient",
+    "dimensionType": "entity",
+    "name": "recipient:generic:id",
+    "title": "Recipient/Generic/Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the legal entity",
+    "dimensionType": "entity",
+    "name": "recipient:generic:legal-entity:code",
+    "parent": "recipient:generic:id",
+    "title": "Recipient/Generic/Legal Entity/Legal entity code",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Trading name (or other) of the legal entity",
+    "dimensionType": "entity",
+    "labelfor": "recipient:generic:legal-entity:code",
+    "name": "recipient:generic:legal-entity:label",
+    "title": "Recipient/Generic/Legal Entity/Legal entity display name"
+  },
+  {
+    "dataType": "string",
+    "description": "Text describing the representative of the legal entity",
+    "dimensionType": "entity",
+    "name": "recipient:generic:legal-entity:point-of-contact:description",
+    "title": "Recipient/Generic/Legal Entity/Point Of Contact/POC details"
+  },
+  {
+    "dataType": "string",
+    "description": "Code of the specific project inside the legal entity",
+    "dimensionType": "entity",
+    "name": "recipient:generic:legal-entity:receiving-project:code",
+    "parent": "recipient:generic:legal-entity:code",
+    "title": "Recipient/Generic/Legal Entity/Receiving Project/Project code",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Name of the specific project inside the legal entity",
+    "dimensionType": "entity",
+    "name": "recipient:generic:legal-entity:receiving-project:description",
+    "title": "Recipient/Generic/Legal Entity/Receiving Project/Project description"
+  },
+  {
+    "dataType": "string",
+    "description": "Name of the specific project inside the legal entity",
+    "dimensionType": "entity",
+    "labelfor": "recipient:generic:legal-entity:receiving-project:code",
+    "name": "recipient:generic:legal-entity:receiving-project:label",
+    "title": "Recipient/Generic/Legal Entity/Receiving Project/Project name"
+  },
+  {
+    "dataType": "string",
+    "description": "Status of the specific project inside the legal entity",
+    "dimensionType": "entity",
+    "name": "recipient:generic:legal-entity:receiving-project:status",
+    "title": "Recipient/Generic/Legal Entity/Receiving Project/Project status"
+  },
+  {
+    "dataType": "string",
+    "description": "The display name for the Recipient",
+    "dimensionType": "entity",
+    "labelfor": "recipient:generic:id",
+    "name": "recipient:generic:name",
+    "title": "Recipient/Generic/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "An Internet address for the Recipient",
+    "dimensionType": "entity",
+    "name": "recipient:generic:url",
+    "title": "Recipient/Generic/URL"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the Supplier",
+    "dimensionType": "entity",
+    "name": "supplier:generic:id",
+    "title": "Supplier/Generic/Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "The display name for the Supplier",
+    "dimensionType": "entity",
+    "labelfor": "supplier:generic:id",
+    "name": "supplier:generic:name",
+    "title": "Supplier/Generic/Display Name"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the Budget Line for this transaction",
+    "dimensionType": "fact",
+    "name": "transaction-id:budget-code",
+    "title": "Transaction Id/Budget Code",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "A Unique identifier for this transaction",
+    "dimensionType": "fact",
+    "name": "transaction-id:code",
+    "title": "Transaction Id/Unique Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the Contract for this transaction",
+    "dimensionType": "fact",
+    "name": "transaction-id:contract-id",
+    "title": "Transaction Id/Contract Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the Court Order for this transaction",
+    "dimensionType": "fact",
+    "name": "transaction-id:court-order",
+    "title": "Transaction Id/Court Order",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the Invoice for this transaction",
+    "dimensionType": "fact",
+    "name": "transaction-id:invoice-id",
+    "title": "Transaction Id/Invoice Identifier",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the Purchase Order for this transaction",
+    "dimensionType": "fact",
+    "name": "transaction-id:purchase-order",
+    "title": "Transaction Id/Purchase Order",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the Tender for this transaction",
+    "dimensionType": "fact",
+    "name": "transaction-id:tender-id",
+    "title": "Transaction Id/Tender",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the Tender Kind for this transaction",
+    "dimensionType": "fact",
+    "name": "transaction-id:tender-kind",
+    "title": "Transaction Id/Tender Kind"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the Transaction Kind for this transaction",
+    "dimensionType": "fact",
+    "name": "transaction-id:transaction-kind",
+    "title": "Transaction Id/Transaction Kind"
+  },
+  {
+    "dataType": "date",
+    "description": "An unknown date column with no mapping",
+    "dimensionType": "other",
+    "name": "unknown:date",
+    "title": "Unknown/Unknown Mapping - Date"
+  },
+  {
+    "dataType": "datetime",
+    "description": "An unknown time column with no mapping",
+    "dimensionType": "other",
+    "name": "unknown:datetime",
+    "title": "Unknown/Unknown Mapping - Date/Time"
+  },
+  {
+    "dataType": "integer",
+    "description": "An unknown integer column with no mapping",
+    "dimensionType": "other",
+    "name": "unknown:integer",
+    "title": "Unknown/Unknown Mapping - Integer"
+  },
+  {
+    "dataType": "number",
+    "description": "An unknown numeric column with no mapping",
+    "dimensionType": "other",
+    "name": "unknown:number",
+    "title": "Unknown/Unknown Mapping - Number"
+  },
+  {
+    "dataType": "string",
+    "description": "An unknown string column with no mapping",
+    "dimensionType": "other",
+    "name": "unknown:string",
+    "title": "Unknown/Unknown Mapping - String"
+  },
+  {
+    "dataType": "time",
+    "description": "An unknown date/time column with no mapping",
+    "dimensionType": "other",
+    "name": "unknown:time",
+    "title": "Unknown/Unknown Mapping - Time"
+  },
+  {
+    "dataType": "number",
+    "description": "Numeric value depicting a fiscal amount related to the budget item, spending transaction etc.",
+    "name": "value",
+    "title": "Amount"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the amount currency",
+    "dimensionType": "other",
+    "name": "value-currency:code",
+    "title": "Value Currency/Code for Amount Currency",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Display name for the amount currency",
+    "dimensionType": "other",
+    "labelfor": "value-currency:code",
+    "name": "value-currency:label",
+    "title": "Value Currency/Label for Amount Currency"
+  },
+  {
+    "dataType": "string",
+    "description": "Unique identifier for the amount kind",
+    "dimensionType": "other",
+    "name": "value-kind:code",
+    "title": "Value Kind/Code for Amount Kind",
+    "unique": true
+  },
+  {
+    "dataType": "string",
+    "description": "Display name for the amount kind",
+    "dimensionType": "other",
+    "labelfor": "value-kind:code",
+    "name": "value-kind:label",
+    "title": "Value Kind/Label for Amount Kind"
+  }
+]

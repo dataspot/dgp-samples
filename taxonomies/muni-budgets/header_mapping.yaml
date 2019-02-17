@@ -1,0 +1,18 @@
+כרטיס: {type: 'card:code'}
+שם כרטיס: {type: 'card:name'}
+שנה: {type: fiscal-year}
+תקציב: {type: value}
+תקציב 2016:
+  normalize:
+    header: תקציב
+    using: {שנה: 2016}
+תקציב 2017:
+  normalize:
+    header: תקציב
+    using: {שנה: 2017}
+תקציב 2018:
+  normalize:
+    header: תקציב
+    using: {שנה: 2018}
+שם הרשות המקומית:
+  type: municipality:name

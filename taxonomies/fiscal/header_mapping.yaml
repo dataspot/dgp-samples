@@ -1,0 +1,18 @@
+year:
+  type: date:fiscal-year
+approved:
+  normalize:
+    header: amount
+    using: {phase: approved}
+adjusted:
+  normalize:
+    header: amount
+    using: {phase: adjusted}
+executed:
+  normalize:
+    header: amount
+    using: {phase: executed}
+amount:
+  type: value
+phase:
+  type: phase:id

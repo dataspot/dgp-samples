@@ -1,0 +1,10 @@
+muni-budgets:
+  title: תקציב
+  column_types: muni-budgets/column_types.json
+  header_mapping: muni-budgets/header_mapping.yaml
+
+fiscal:
+  title: Fiscal Data Package
+  column_types: fiscal/column_types.json
+  header_mapping: fiscal/header_mapping.yaml
+

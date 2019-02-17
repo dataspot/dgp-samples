@@ -1,0 +1,1113 @@
+{
+  "activity:generic:contract:code": {
+    "dataType": "string",
+    "dimensionType": "activity",
+    "parent": "activity:generic:subproject:code",
+    "uniqueIdentifier": true
+  },
+  "activity:generic:contract:label": {
+    "dataType": "string",
+    "dimensionType": "activity",
+    "labelfor": "activity:generic:contract:code"
+  },
+  "activity:generic:program:code": {
+    "dataType": "string",
+    "dimensionType": "activity",
+    "uniqueIdentifier": true
+  },
+  "activity:generic:program:label": {
+    "dataType": "string",
+    "dimensionType": "activity",
+    "labelfor": "activity:generic:program:code"
+  },
+  "activity:generic:subprogram:code": {
+    "dataType": "string",
+    "dimensionType": "activity",
+    "uniqueIdentifier": true,
+    "parent": "activity:generic:program:code"
+  },
+  "activity:generic:subprogram:label": {
+    "dataType": "string",
+    "dimensionType": "activity",
+    "labelfor": "activity:generic:subprogram:code"
+  },
+  "activity:generic:project:code": {
+    "dataType": "string",
+    "dimensionType": "activity",
+    "parent": "activity:generic:subprogram:code",
+    "uniqueIdentifier": true
+  },
+  "activity:generic:project:label": {
+    "dataType": "string",
+    "dimensionType": "activity",
+    "labelfor": "activity:generic:project:code"
+  },
+  "activity:generic:subproject:code": {
+    "dataType": "string",
+    "dimensionType": "activity",
+    "parent": "activity:generic:project:code",
+    "uniqueIdentifier": true
+  },
+  "activity:generic:subproject:label": {
+    "dataType": "string",
+    "dimensionType": "activity",
+    "labelfor": "activity:generic:subproject:code"
+  },
+  "administrative-classification:generic:code": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "uniqueIdentifier": true
+  },
+  "administrative-classification:generic:description": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "administrative-classification:generic:label": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:code"
+  },
+  "administrative-classification:generic:level1:code": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "uniqueIdentifier": true
+  },
+  "administrative-classification:generic:level1:description": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "administrative-classification:generic:level1:label": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level1:code"
+  },
+  "administrative-classification:generic:level2:code": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "administrative-classification:generic:level1:code",
+    "uniqueIdentifier": true
+  },
+  "administrative-classification:generic:level2:description": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "administrative-classification:generic:level2:label": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level2:code"
+  },
+  "administrative-classification:generic:level3:code": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "administrative-classification:generic:level2:code",
+    "uniqueIdentifier": true
+  },
+  "administrative-classification:generic:level3:description": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "administrative-classification:generic:level3:label": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level3:code"
+  },
+  "administrative-classification:generic:level4:code": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "administrative-classification:generic:level3:code",
+    "uniqueIdentifier": true
+  },
+  "administrative-classification:generic:level4:description": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "administrative-classification:generic:level4:label": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level4:code"
+  },
+  "administrative-classification:generic:level5:code": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "administrative-classification:generic:level4:code",
+    "uniqueIdentifier": true
+  },
+  "administrative-classification:generic:level5:description": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "administrative-classification:generic:level5:label": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level5:code"
+  },
+  "administrative-classification:generic:level6:code": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "administrative-classification:generic:level5:code",
+    "uniqueIdentifier": true
+  },
+  "administrative-classification:generic:level6:description": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "administrative-classification:generic:level6:label": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level6:code"
+  },
+  "administrative-classification:generic:level7:code": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "administrative-classification:generic:level6:code",
+    "uniqueIdentifier": true
+  },
+  "administrative-classification:generic:level7:description": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "administrative-classification:generic:level7:label": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level7:code"
+  },
+  "administrative-classification:generic:level8:code": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "administrative-classification:generic:level7:code",
+    "uniqueIdentifier": true
+  },
+  "administrative-classification:generic:level8:description": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "administrative-classification:generic:level8:label": {
+    "classificationType": "administrative",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "administrative-classification:generic:level8:code"
+  },
+  "administrator:generic:id": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "uniqueIdentifier": true
+  },
+  "administrator:generic:name": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "labelfor": "administrator:generic:id"
+  },
+  "budget-line-id": {
+    "dataType": "string",
+    "dimensionType": "fact",
+    "uniqueIdentifier": true
+  },
+  "date:fiscal-year": {
+    "dataType": "integer",
+    "dimensionType": "datetime",
+    "uniqueIdentifier": true
+  },
+  "date:generic": {
+    "dataType": "date",
+    "dimensionType": "datetime",
+    "uniqueIdentifier": true
+  },
+  "date:fiscal:activity-start": {
+    "dataType": "date",
+    "dimensionType": "datetime",
+    "uniqueIdentifier": true
+  },
+  "date:fiscal:activity-end": {
+    "dataType": "date",
+    "dimensionType": "datetime",
+    "uniqueIdentifier": true
+  },
+  "date:fiscal:activity-approval": {
+    "dataType": "date",
+    "dimensionType": "datetime",
+    "uniqueIdentifier": true
+  },
+  "date:fiscal:first-payment": {
+    "dataType": "date",
+    "dimensionType": "datetime",
+    "uniqueIdentifier": true
+  },
+  "date:fiscal:final-payment": {
+    "dataType": "date",
+    "dimensionType": "datetime",
+    "uniqueIdentifier": true
+  },
+  "direction": {
+    "dataType": "string",
+    "dimensionType": "other",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:generic:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:generic:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:generic:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:code"
+  },
+  "economic-classification:generic:level1:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:generic:level1:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:generic:level1:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level1:code"
+  },
+  "economic-classification:generic:level2:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "economic-classification:generic:level1:code",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:generic:level2:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:generic:level2:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level2:code"
+  },
+  "economic-classification:generic:level3:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "economic-classification:generic:level2:code",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:generic:level3:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:generic:level3:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level3:code"
+  },
+  "economic-classification:generic:level4:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "economic-classification:generic:level3:code",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:generic:level4:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:generic:level4:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level4:code"
+  },
+  "economic-classification:generic:level5:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "economic-classification:generic:level4:code",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:generic:level5:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:generic:level5:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level5:code"
+  },
+  "economic-classification:generic:level6:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "economic-classification:generic:level5:code",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:generic:level6:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:generic:level6:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level6:code"
+  },
+  "economic-classification:generic:level7:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "economic-classification:generic:level6:code",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:generic:level7:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:generic:level7:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level7:code"
+  },
+  "economic-classification:generic:level8:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "economic-classification:generic:level7:code",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:generic:level8:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:generic:level8:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:generic:level8:code"
+  },
+  "economic-classification:gfsm:level1:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:gfsm:level1:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:gfsm:level1:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:gfsm:level1:code"
+  },
+  "economic-classification:gfsm:level2:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "economic-classification:gfsm:level1:code",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:gfsm:level2:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:gfsm:level2:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:gfsm:level2:code"
+  },
+  "economic-classification:gfsm:level3:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "economic-classification:gfsm:level2:code",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:gfsm:level3:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:gfsm:level3:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:gfsm:level3:code"
+  },
+  "economic-classification:gfsm:level4:code": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "economic-classification:gfsm:level3:code",
+    "uniqueIdentifier": true
+  },
+  "economic-classification:gfsm:level4:description": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "economic-classification:gfsm:level4:label": {
+    "classificationType": "economic",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "economic-classification:gfsm:level4:code"
+  },
+  "functional-classification:cofog:class:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "functional-classification:cofog:group:code",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:cofog:class:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:cofog:class:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:cofog:class:code"
+  },
+  "functional-classification:cofog:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:cofog:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:cofog:division:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:cofog:division:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:cofog:division:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:cofog:division:code"
+  },
+  "functional-classification:cofog:group:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "functional-classification:cofog:division:code",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:cofog:group:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:cofog:group:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:cofog:group:code"
+  },
+  "functional-classification:cofog:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:cofog:code"
+  },
+  "functional-classification:generic:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:generic:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:generic:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:code"
+  },
+  "functional-classification:generic:level1:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:generic:level1:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:generic:level1:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level1:code"
+  },
+  "functional-classification:generic:level2:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "functional-classification:generic:level1:code",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:generic:level2:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:generic:level2:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level2:code"
+  },
+  "functional-classification:generic:level3:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "functional-classification:generic:level2:code",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:generic:level3:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:generic:level3:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level3:code"
+  },
+  "functional-classification:generic:level4:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "functional-classification:generic:level3:code",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:generic:level4:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:generic:level4:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level4:code"
+  },
+  "functional-classification:generic:level5:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "functional-classification:generic:level4:code",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:generic:level5:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:generic:level5:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level5:code"
+  },
+  "functional-classification:generic:level6:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "functional-classification:generic:level5:code",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:generic:level6:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:generic:level6:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level6:code"
+  },
+  "functional-classification:generic:level7:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "functional-classification:generic:level6:code",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:generic:level7:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:generic:level7:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level7:code"
+  },
+  "functional-classification:generic:level8:code": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "parent": "functional-classification:generic:level7:code",
+    "uniqueIdentifier": true
+  },
+  "functional-classification:generic:level8:description": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification"
+  },
+  "functional-classification:generic:level8:label": {
+    "classificationType": "functional",
+    "dataType": "string",
+    "dimensionType": "classification",
+    "labelfor": "functional-classification:generic:level8:code"
+  },
+  "geo-source:generic:code": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "uniqueIdentifier": true
+  },
+  "geo-source:generic:codeList": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "uniqueIdentifier": true
+  },
+  "geo-source:generic:title": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "labelfor": "geo-source:generic:code"
+  },
+  "geo-source:source:code": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "uniqueIdentifier": true
+  },
+  "geo-source:source:codeList": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "uniqueIdentifier": true
+  },
+  "geo-source:source:title": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "labelfor": "geo-source:source:code"
+  },
+  "geo-source:target:code": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "uniqueIdentifier": true
+  },
+  "geo-source:target:codeList": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "uniqueIdentifier": true
+  },
+  "geo-source:target:title": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "labelfor": "geo-source:target:code"
+  },
+  "geo-source:target:level1:code": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "uniqueIdentifier": true
+  },
+  "geo-source:target:level1:title": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "labelfor": "geo-source:target:level1:code"
+  },
+  "geo-source:target:level2:code": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "uniqueIdentifier": true,
+    "parent": "geo-source:target:level1:code"
+  },
+  "geo-source:target:level2:title": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "labelfor": "geo-source:target:level2:code"
+  },
+  "geo-source:address:country:code": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "uniqueIdentifier": true
+  },
+  "geo-source:address:country:label": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "labelfor": "geo-source:address:country:code"
+  },
+  "geo-source:address:region:code": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "parent": "geo-source:address:country:code",
+    "uniqueIdentifier": true
+  },
+  "geo-source:address:region:label": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "labelfor": "geo-source:address:region:code"
+  },
+  "geo-source:address:county:code": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "parent": "geo-source:address:region:code",
+    "uniqueIdentifier": true
+  },
+  "geo-source:address:county:label": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "labelfor": "geo-source:address:county:code"
+  },
+  "geo-source:address:city:code": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "parent": "geo-source:address:county:code",
+    "uniqueIdentifier": true
+  },
+  "geo-source:address:city:label": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "labelfor": "geo-source:address:city:code"
+  },
+  "geo-source:address:zip:code": {
+    "dataType": "string",
+    "dimensionType": "location",
+    "parent": "geo-source:address:city:code",
+    "uniqueIdentifier": true
+  },
+  "geo-source:address:street-address:description": {
+    "dataType": "string",
+    "dimensionType": "location"
+  },
+  "transaction-id:code": {
+    "dataType": "string",
+    "dimensionType": "fact",
+    "uniqueIdentifier": true
+  },
+  "transaction-id:purchase-order": {
+    "dataType": "string",
+    "dimensionType": "fact",
+    "uniqueIdentifier": true
+  },
+  "transaction-id:invoice-id": {
+    "dataType": "string",
+    "dimensionType": "fact",
+    "uniqueIdentifier": true
+  },
+  "transaction-id:tender-id": {
+    "dataType": "string",
+    "dimensionType": "fact",
+    "uniqueIdentifier": true
+  },
+  "transaction-id:tender-kind": {
+    "dataType": "string",
+    "dimensionType": "fact"
+  },
+  "transaction-id:contract-id": {
+    "dataType": "string",
+    "dimensionType": "fact",
+    "uniqueIdentifier": true
+  },
+  "transaction-id:budget-code": {
+    "dataType": "string",
+    "dimensionType": "fact",
+    "uniqueIdentifier": true
+  },
+  "transaction-id:court-order": {
+    "dataType": "string",
+    "dimensionType": "fact",
+    "uniqueIdentifier": true
+  },
+  "transaction-id:transaction-kind": {
+    "dataType": "string",
+    "dimensionType": "fact"
+  },
+  "phase:id": {
+    "dataType": "string",
+    "dimensionType": "other",
+    "uniqueIdentifier": true
+  },
+  "phase:label": {
+    "dataType": "string",
+    "dimensionType": "other",
+    "labelfor": "phase:id"
+  },
+  "procurer:generic:id": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "uniqueIdentifier": true
+  },
+  "procurer:generic:name": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "labelfor": "procurer:generic:id"
+  },
+  "procurer:bank:code": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "uniqueIdentifier": true
+  },
+  "procurer:bank:account": {
+    "dataType": "string",
+    "dimensionType": "entity"
+  },
+  "procurer:bank:branch:code": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "uniqueIdentifier": true
+  },
+  "procurer:bank:branch:name": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "labelfor": "procurer:bank:branch:code"
+  },
+  "recipient:generic:id": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "uniqueIdentifier": true
+  },
+  "recipient:generic:name": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "labelfor": "recipient:generic:id"
+  },
+  "recipient:generic:url": {
+    "dataType": "string",
+    "dimensionType": "entity"
+  },
+  "recipient:generic:legal-entity:code": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "parent": "recipient:generic:id",
+    "uniqueIdentifier": true
+  },
+  "recipient:generic:legal-entity:label": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "labelfor": "recipient:generic:legal-entity:code"
+  },
+  "recipient:generic:legal-entity:point-of-contact:description": {
+    "dataType": "string",
+    "dimensionType": "entity"
+  },
+  "recipient:generic:legal-entity:receiving-project:code": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "parent": "recipient:generic:legal-entity:code",
+    "uniqueIdentifier": true
+  },
+  "recipient:generic:legal-entity:receiving-project:label": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "labelfor": "recipient:generic:legal-entity:receiving-project:code"
+  },
+  "recipient:generic:legal-entity:receiving-project:status": {
+    "dataType": "string",
+    "dimensionType": "entity"
+  },
+  "recipient:generic:legal-entity:receiving-project:description": {
+    "dataType": "string",
+    "dimensionType": "entity"
+  },
+  "recipient:bank:code": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "uniqueIdentifier": true
+  },
+  "recipient:bank:account": {
+    "dataType": "string",
+    "dimensionType": "entity"
+  },
+  "recipient:bank:branch:code": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "uniqueIdentifier": true
+  },
+  "recipient:bank:branch:name": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "labelfor": "recipient:bank:branch:name"
+  },
+  "supplier:generic:id": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "uniqueIdentifier": true
+  },
+  "supplier:generic:name": {
+    "dataType": "string",
+    "dimensionType": "entity",
+    "labelfor": "supplier:generic:id"
+  },
+  "value": {
+    "dataType": "number"
+  },
+  "value-kind:code": {
+    "dataType": "string",
+    "dimensionType": "other",
+    "uniqueIdentifier": true
+  },
+  "value-kind:label": {
+    "dataType": "string",
+    "dimensionType": "other",
+    "labelfor": "value-kind:code"
+  },
+  "value-currency:code": {
+    "dataType": "string",
+    "dimensionType": "other",
+    "uniqueIdentifier": true
+  },
+  "value-currency:label": {
+    "dataType": "string",
+    "dimensionType": "other",
+    "labelfor": "value-currency:code"
+  },
+  "fin-source:generic:code": {
+    "dimensionType": "other",
+    "dataType": "string",
+    "uniqueIdentifier": true
+  },
+  "fin-source:generic:label": {
+    "dataType": "string",
+    "dimensionType": "other",
+    "labelfor": "fin-source:generic:code"
+  },
+  "fin-source:generic:level1:code": {
+    "dimensionType": "other",
+    "dataType": "string",
+    "uniqueIdentifier": true
+  },
+  "fin-source:generic:level1:label": {
+    "dataType": "string",
+    "dimensionType": "other",
+    "labelfor": "fin-source:generic:level1:code"
+  },
+  "fin-source:generic:level2:code": {
+    "dimensionType": "other",
+    "dataType": "string",
+    "parent": "fin-source:generic:level1:code",
+    "uniqueIdentifier": true
+  },
+  "fin-source:generic:level2:label": {
+    "dimensionType": "other",
+    "dataType": "string",
+    "labelfor": "fin-source:generic:level2:code"
+  },
+  "fin-source:generic:level3:code": {
+    "dimensionType": "other",
+    "dataType": "string",
+    "parent": "fin-source:generic:level2:code",
+    "uniqueIdentifier": true
+  },
+  "fin-source:generic:level3:label": {
+    "dimensionType": "other",
+    "dataType": "string",
+    "labelfor": "fin-source:generic:level3:code"
+  },
+  "expenditure-type:code": {
+    "dimensionType": "other",
+    "dataType": "string",
+    "uniqueIdentifier": true
+  },
+  "expenditure-type:label": {
+    "dimensionType": "other",
+    "dataType": "string",
+    "labelfor": "expenditure-type:code"
+  },
+  "budgetary-transfers": {
+    "dimensionType": "other",
+    "dataType": "string"
+  },
+  "unknown:string": {
+    "dimensionType": "other",
+    "dataType": "string"
+  },
+  "unknown:date": {
+    "dimensionType": "other",
+    "dataType": "date"
+  },
+  "unknown:time": {
+    "dimensionType": "other",
+    "dataType": "time"
+  },
+  "unknown:datetime": {
+    "dimensionType": "other",
+    "dataType": "datetime"
+  },
+  "unknown:number": {
+    "dimensionType": "other",
+    "dataType": "number"
+  },
+  "unknown:integer": {
+    "dimensionType": "other",
+    "dataType": "integer"
+  }
+}

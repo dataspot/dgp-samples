@@ -1,0 +1,27 @@
+constants:
+- - שם הרשות המקומית
+  - רעננה
+model:
+  mapping:
+  - name: תקציב 2016
+    normalize:
+      שלב: שש
+      שנה: 2016
+    normalizeTarget: תקציב
+    title: תקציב 2016
+  - name: תקציב 2017
+    normalize:
+      שלב: שש
+      שנה: 2017
+    normalizeTarget: תקציב
+    title: תקציב 2017
+  - name: תקציב 2018
+    normalize:
+      שלב: שש
+      שנה: 2018
+    normalizeTarget: תקציב
+    title: תקציב 2018
+  - columnType: phase
+    name: שלב
+source:
+  path: /Users/adam/code/datapip.es/backend/datapipes/test/test.xls
