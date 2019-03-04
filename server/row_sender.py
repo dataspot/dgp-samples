@@ -36,19 +36,27 @@ def row_validator(phase, poster: Poster, tasks):
 def row_sender(phase, poster: Poster, tasks):
     ls = LineSelector()
 
-    def func(rows):
-        tasks.append(poster.post_row(phase, -1, None))
-        buffer = []
-        for i, row in enumerate(rows):
-            buffer.append((i, row))
-            if len(buffer) > 10:
-                i, row = buffer.pop(0)
+    def func(package):
+        field_names = [f['name']
+                       for f in
+                       package.pkg.resources[0].descriptor['schema']['fields']]
+        tasks.append(poster.post_row(phase, -1, field_names))
+        yield package.pkg
+
+        for rows in package:
+            buffer = []
+            max_sent = -1
+            for i, row in enumerate(rows):
+                buffer.append((i, row))
+                if len(buffer) > 10:
+                    buffer.pop(0)
                 if ls(i):
                     tasks.append(poster.post_row(phase, i, row))
+                    max_sent = i
                 yield row
-        for i, row in buffer:
-            tasks.append(poster.post_row(phase, i, row))
-            yield row
+            for i, row in buffer:
+                if i > max_sent:
+                    tasks.append(poster.post_row(phase, i, row))
     return func
 
 
